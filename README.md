@@ -4,3 +4,7 @@
 Dumb data command if 
 
 mysqldump -h < hostname > -u <db_user> -p <db_name> > backup.sql
+
+restore it 
+
+mysql -h < hostname > -u <db_user> -p <db_name> > backup.sql
