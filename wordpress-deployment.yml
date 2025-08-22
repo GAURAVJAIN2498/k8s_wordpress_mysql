@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: wordpress
-          image: wordpress:5.1.1-php7.3-apache
+          image: wordpress:6.2-apache
           ports:
             - containerPort: 80
           env:
